@@ -79,5 +79,12 @@ M.rand_colorscheme = function()
   end
 end
 
--- Load a random colorscheme
-M.rand_colorscheme()
+--- Use a specific colorscheme
+M.choose_colorscheme = function()
+    vim.cmd([[colorscheme nightfox]])
+end
+
+-- Load a custom colorscheme
+M.choose_colorscheme()
+
+
