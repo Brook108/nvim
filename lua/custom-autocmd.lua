@@ -103,3 +103,15 @@ local function open_nvim_tree(data)
 end
 
 vim.api.nvim_create_autocmd({ "VimEnter" }, { callback = open_nvim_tree })
+
+-- Set wrap when split 
+vim.api.nvim_create_autocmd("WinEnter", {
+  group = splitwrap_aumgroup,
+  callback = function()
+    -- Get handlers for current windows, we need it to get the windows amount
+    local active_windows = vim.api.nvim_list_wins()
+    if #active_windows == 1 then
+      vim.wo.wrap = false
+    end
+  end
+})
