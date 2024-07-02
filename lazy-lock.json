@@ -1,5 +1,5 @@
 {
-  "LeaderF": { "branch": "master", "commit": "4f55b230a31e817fbff78707273cc38ceab828c3" },
+  "LeaderF": { "branch": "master", "commit": "e91858f71703971692110c032febe0c63c1b1690" },
   "asyncrun.vim": { "branch": "master", "commit": "b0987750dddf0ee678d160fe50e3d5397cd0c9e9" },
   "better-escape.vim": { "branch": "master", "commit": "6b16a45a839727977277f6ab11bded63e9ed86bb" },
   "bufferline.nvim": { "branch": "main", "commit": "81820cac7c85e51e4cf179f8a66d13dbf7b032d9" },
@@ -70,6 +70,7 @@
   "vim-snippets": { "branch": "master", "commit": "96d79529edc3dee1ccf2ce7b75a88cb546ec2501" },
   "vim-swap": { "branch": "master", "commit": "9358bfdc5e377aa13e7c2c2dd8699ba32b0dcf83" },
   "vim-toml": { "branch": "main", "commit": "d36caa6b1cf508a4df1c691f915572fc02143258" },
+  "vim-wakatime": { "branch": "master", "commit": "3cb40867cb5a3120f9bef76eff88edc7f1dc1a23" },
   "vista.vim": { "branch": "master", "commit": "c07585b588071adc8e9670becadb89307153e4d1" },
   "which-key.nvim": { "branch": "main", "commit": "0099511294f16b81c696004fa6a403b0ae61f7a0" },
   "whitespace.nvim": { "branch": "master", "commit": "fda1dd48e63e62a0ebd270c38d87e246b29c3616" },

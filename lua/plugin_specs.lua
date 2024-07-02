@@ -127,6 +127,7 @@ local plugin_specs = {
     config = true, -- or `opts = {}`
   },
   -- A list of colorscheme plugin you may want to try. Find what suits you.
+  { "wakatime/vim-wakatime", lazy = false},
   { "navarasu/onedark.nvim", lazy = true },
   { "sainnhe/edge", lazy = true },
   { "sainnhe/sonokai", lazy = true },
