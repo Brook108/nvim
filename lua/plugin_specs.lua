@@ -127,6 +127,18 @@ local plugin_specs = {
     config = true, -- or `opts = {}`
   },
   -- A list of colorscheme plugin you may want to try. Find what suits you.
+  { "puremourning/vimspector", lazy = false},
+  { "hrsh7th/cmp-buffer", lazy = false},
+  { "hrsh7th/cmp-nvim-lsp", lazy = false},
+  { "hrsh7th/cmp-nvim-lsp-signature-help", lazy = false},
+  { "hrsh7th/cmp-nvim-lua", lazy = false},
+  { "hrsh7th/cmp-path", lazy = false},
+  { "hrsh7th/cmp-vsnip", lazy = false},
+  { "hrsh7th/nvim-cmp", lazy = false},
+  { "hrsh7th/vim-vsnip", lazy = false},
+  { "simrat39/rust-tools.nvim", lazy = false},
+  { "williamboman/mason.nvim", lazy = false},
+  { "williamboman/mason-lspconfig", lazy = false},
   { "wakatime/vim-wakatime", lazy = false},
   { "navarasu/onedark.nvim", lazy = true },
   { "sainnhe/edge", lazy = true },
