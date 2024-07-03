@@ -127,6 +127,7 @@ local plugin_specs = {
     config = true, -- or `opts = {}`
   },
   -- A list of colorscheme plugin you may want to try. Find what suits you.
+  { "github/copilot.vim", lazy = false},
   { "puremourning/vimspector", lazy = false},
   { "hrsh7th/cmp-buffer", lazy = false},
   { "hrsh7th/cmp-nvim-lsp", lazy = false},
